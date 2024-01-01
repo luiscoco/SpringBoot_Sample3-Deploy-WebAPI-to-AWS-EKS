@@ -173,7 +173,7 @@ spec:
         - name: demoapi
           image: public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 80
 ```
 
 **IMPORTANT**: pay attention replace set the image name.
@@ -199,7 +199,7 @@ spec:
   ports:
     - protocol: TCP
       port: 80  # The port the load balancer listens on
-      targetPort: 8080  # The port the container accepts traffic on
+      targetPort: 80  # The port the container accepts traffic on
 ```
 
 **Deploying to AWS EKS**
@@ -231,9 +231,6 @@ Check the status of the pods:
 ```
 kubectl get pods
 ```
-
-
-
 
 ```
 kubectl get service demoapi-service
