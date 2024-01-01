@@ -6,6 +6,18 @@
 
 https://docs.docker.com/desktop/install/windows-install/
 
+Run Docker Desktop and enable Kubernetes
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/368d03c2-ab91-4494-a4dd-3fd01b91272b)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/e32f2683-a837-4957-88dd-5db985b9871c)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/d9c96cb3-c433-4cdc-b1ee-0a727015f4a8)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/3bf8e247-ff75-4813-baf2-b864df4b302b)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/d6b20f21-ec52-400c-88d9-d0fa31264dad)
+
 ## 1.2. Install **eksctl**:
 
 ```
