@@ -137,7 +137,7 @@ We run this command for creating AWS EKS:
 
 ```
 eksctl create cluster ^
---name luiscocoenriquezdotnet6webapi-cluster ^
+--name springbootwebapi-cluster ^
 --version 1.25 ^--region eu-west-3 ^
 --nodegroup-name linux-nodes ^
 --node-type t2.micro ^
