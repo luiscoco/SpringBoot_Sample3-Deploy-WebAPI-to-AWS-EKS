@@ -236,4 +236,17 @@ kubectl get pods
 kubectl get service demoapi-service
 ```
 
+```
+kubectl get all
+```
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/97d840ba-569d-4e17-804d-59bc0fce4073)
+
 Use the external IP address to access your application in a web browser: **http://<EXTERNAL-IP>/hello**
+
+http://ab80054383af243af94c3b39ab82add9-652326268.eu-west-3.elb.amazonaws.com/hello
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/344f90f9-d523-475e-97a5-66debe15b6d7)
+
+
+
