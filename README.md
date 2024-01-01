@@ -218,8 +218,6 @@ Check the status of the pods:
 kubectl get pods
 ```
 
-![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/a45d8918-5658-44b7-b034-c12c9983227c)
-
 
 
 
