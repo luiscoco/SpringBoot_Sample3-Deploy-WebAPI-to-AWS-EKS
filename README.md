@@ -248,6 +248,8 @@ http://ab80054383af243af94c3b39ab82add9-652326268.eu-west-3.elb.amazonaws.com/he
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/344f90f9-d523-475e-97a5-66debe15b6d7)
 
+http://ab80054383af243af94c3b39ab82add9-652326268.eu-west-3.elb.amazonaws.com/actuator/health
+
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/10948b78-74b0-4a47-aa6b-16903f22e05c)
 
 
