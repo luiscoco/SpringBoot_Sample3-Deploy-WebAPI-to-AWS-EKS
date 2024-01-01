@@ -4,7 +4,7 @@
 
 See this rep: https://github.com/luiscoco/SpringBoot_Sample1-created-with-VSCode
 
-https://github.com/luiscoco/SpringBoot_Sample4-deploy-WebAPI-to-LocalKubernetes
+See also  this repo: https://github.com/luiscoco/SpringBoot_Sample4-deploy-WebAPI-to-LocalKubernetes
 
 Press **Ctrl+Shift+P** for creating a new project in VSCode
 
