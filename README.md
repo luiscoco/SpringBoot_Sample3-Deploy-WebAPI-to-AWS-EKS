@@ -127,7 +127,7 @@ eksctl create cluster ^
 --version 1.25 ^--region eu-west-3 ^
 --nodegroup-name linux-nodes ^
 --node-type t2.micro ^
---nodes 2
+--nodes 3
 ```
 
 ## 5. Deploy you application in AWS EKS Elastic Kluster 
@@ -157,7 +157,7 @@ spec:
     spec:
       containers:
         - name: demoapi
-          image: public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest  # Replace with your Docker image, e.g., "username/demoapi:latest"
+          image: public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
           ports:
             - containerPort: 8080
 ```
