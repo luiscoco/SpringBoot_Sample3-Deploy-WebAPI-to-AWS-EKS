@@ -181,11 +181,10 @@ Check the status of the pods:
 kubectl get pods
 ```
 
-Access the Service:
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/a45d8918-5658-44b7-b034-c12c9983227c)
 
-Once the service is deployed, it will get an external IP address.
 
-You can find the external IP address with:
+
 
 ```
 kubectl get service demoapi-service
