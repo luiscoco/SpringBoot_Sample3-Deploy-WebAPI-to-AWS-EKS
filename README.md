@@ -80,6 +80,12 @@ docker push public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/50363885-ea21-4414-84b4-8d008c48fca1)
 
+Run the Docker container with this command:
+
+```
+docker run -p 8080:80 public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
+```
+
 ## 4. Create the AWS EKS cluster
 
 We run this command for creating AWS EKS:
