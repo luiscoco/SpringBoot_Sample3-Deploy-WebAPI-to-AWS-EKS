@@ -1,5 +1,13 @@
 # How to deploy SpringBoot WebAPI to AWS EKS
 
+## 0. Create SpringBoot Web API with VSCode
+
+See this rep: https://github.com/luiscoco/SpringBoot_Sample1-created-with-VSCode
+
+https://github.com/luiscoco/SpringBoot_Sample4-deploy-WebAPI-to-LocalKubernetes
+
+Press **Ctrl+Shift+P** for creating a new project in VSCode
+
 ## 1. Prerequisites
 
 ## 1.1. Install and run Docker Desktop
