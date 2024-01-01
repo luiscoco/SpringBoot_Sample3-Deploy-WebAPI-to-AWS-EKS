@@ -36,6 +36,14 @@ Delete the letter "s" in the word ""
 
 ## 2. Create AWS ECR public repo
 
+We navigate to AWS ECR and we create a new public repo
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/92d7a450-69f0-47ed-abde-9035fc19a41e)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/673202ed-1071-49e9-9a41-7fe01c081262)
+
+
+
 
 
 
