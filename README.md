@@ -76,6 +76,9 @@ docker push public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/98d7c677-ad5a-49ee-b9ec-95d938172748)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/63d6274f-1667-4c63-a45f-c4c5d119404e)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/50363885-ea21-4414-84b4-8d008c48fca1)
 
 
 
