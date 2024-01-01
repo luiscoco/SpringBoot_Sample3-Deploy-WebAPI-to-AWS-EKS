@@ -60,7 +60,13 @@ These are the commnads we have to execute in VSCode Terminal Window
 
 ```
 aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/x7p6e5r6
+```
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/e379a11a-be44-4647-9e97-4618aa5541ff)
+
+## 3. Create a Docker image and push it to Docker Desktop
+
+```
 docker build -t springbootwebapirepo .
 
 docker tag springbootwebapirepo:latest public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
@@ -68,7 +74,9 @@ docker tag springbootwebapirepo:latest public.ecr.aws/x7p6e5r6/springbootwebapir
 docker push public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
 ```
 
-## 3. Create a Docker image and push it to Docker Desktop
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/98d7c677-ad5a-49ee-b9ec-95d938172748)
+
+
 
 
 
