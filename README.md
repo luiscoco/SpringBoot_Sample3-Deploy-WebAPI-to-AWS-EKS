@@ -1,4 +1,4 @@
-# How to deploy to AWS EKS a SpringBoot WebAPI
+# How to deploy SpringBoot WebAPI to AWS EKS
 
 ## 1. Prerequisites
 
