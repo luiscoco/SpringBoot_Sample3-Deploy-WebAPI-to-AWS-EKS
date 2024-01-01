@@ -14,7 +14,23 @@ choco install eksctl
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/73e78a05-3ff8-4917-9be2-0a754145c199)
 
-## 2. 
+## 1.3. Run Docker 
+
+Delete the config.json file in this location: C:\Users\luisc\.docker\config.json
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/f77100a5-dd66-45e1-80ce-03273a5b799c)
+
+
+
+## 2. Create AWS ECR public repo
+
+
+
+
+## 3. Create a Docker image and push it to Docker Desktop
+
+
+
 
 
 To deploy your application in AWS Elastic Kubernetes Service (EKS), you'll need to create two YAML files: one for the deployment (**deployment.yml**) and one for the service (**service.yml**). 
