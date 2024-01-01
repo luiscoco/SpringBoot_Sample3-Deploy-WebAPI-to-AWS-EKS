@@ -20,9 +20,22 @@ Delete the config.json file in this location: C:\Users\luisc\.docker\config.json
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/f77100a5-dd66-45e1-80ce-03273a5b799c)
 
+Run the command:
+
+```
+docker login
+```
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/9149c4df-2a65-49da-905a-a4e036c25960)
+
+Delete the letter "s" in the word "" 
+
+
+
 
 
 ## 2. Create AWS ECR public repo
+
 
 
 
