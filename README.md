@@ -80,10 +80,20 @@ docker push public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/50363885-ea21-4414-84b4-8d008c48fca1)
 
+## 4. Create the AWS EKS cluster
 
+We run this command for creating AWS EKS:
 
+```
+eksctl create cluster ^
+--name luiscocoenriquezdotnet6webapi-cluster ^
+--version 1.25 ^--region eu-west-3 ^
+--nodegroup-name linux-nodes ^
+--node-type t2.micro ^
+--nodes 2
+```
 
-
+## 5. Deploy you application in AWS EKS Elastic Kluster 
 
 To deploy your application in AWS Elastic Kubernetes Service (EKS), you'll need to create two YAML files: one for the deployment (**deployment.yml**) and one for the service (**service.yml**). 
 
@@ -99,7 +109,7 @@ kind: Deployment
 metadata:
   name: demoapi-deployment
 spec:
-  replicas: 2  # The number of Pods to run
+  replicas: 1  # The number of Pods to run
   selector:
     matchLabels:
       app: demoapi
@@ -110,12 +120,17 @@ spec:
     spec:
       containers:
         - name: demoapi
-          image: <your-docker-image>  # Replace with your Docker image, e.g., "username/demoapi:latest"
+          image: public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest  # Replace with your Docker image, e.g., "username/demoapi:latest"
           ports:
             - containerPort: 8080
 ```
 
-Replace **<your-docker-image>** with the path to your Docker image in your container registry.
+**IMPORTANT**: pay attention replace set the image name.
+
+See section  3
+...
+image: public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
+...
 
 **Service YAML (service.yml)**
 
