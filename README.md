@@ -28,11 +28,27 @@ docker login
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/9149c4df-2a65-49da-905a-a4e036c25960)
 
-Delete the letter "s" in the word "" 
+Delete the letter "s" in the word "credsStore" 
 
+```
+{
+	"auths": {
+		"https://index.docker.io/v1/": {}
+	},
+	"credsStore": "wincred"
+}
+```
 
+This is the new config.json file
 
-
+```
+{
+	"auths": {
+		"https://index.docker.io/v1/": {}
+	},
+	"credStore": "wincred"
+}
+```
 
 ## 2. Create AWS ECR public repo
 
