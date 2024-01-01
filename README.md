@@ -1,5 +1,22 @@
 # How to deploy to AWS EKS a SpringBoot WebAPI
 
+## 1. Prerequisites
+
+## 1.1. Install and run Docker Desktop
+
+https://docs.docker.com/desktop/install/windows-install/
+
+## 1.2. Install **eksctl**:
+
+```
+choco install eksctl
+```
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/73e78a05-3ff8-4917-9be2-0a754145c199)
+
+## 2. 
+
+
 To deploy your application in AWS Elastic Kubernetes Service (EKS), you'll need to create two YAML files: one for the deployment (**deployment.yml**) and one for the service (**service.yml**). 
 
 Below are sample YAML files that you can use and modify according to your requirements.
