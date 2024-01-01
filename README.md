@@ -42,11 +42,31 @@ We navigate to AWS ECR and we create a new public repo
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/673202ed-1071-49e9-9a41-7fe01c081262)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/b91f2a00-0070-4589-a5a6-4fcf27e05f09)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/9c622b33-1183-41b5-b930-e6ad97514694)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/04aed621-6110-44c5-9c91-14b3d48f0dfe)
 
+We click on the repo and we upload the application docker image
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/67fd072b-daae-4e5b-9c57-0040e95d57c1)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/d515fcbe-c336-4d22-8bc9-352663afbb99)
+
+These are the commnads we have to execute in VSCode Terminal Window
+
+![image](https://github.com/luiscoco/SpringBoot_Sample3-deploy_WebAPI-to-AWS_Kubernetes_EKS/assets/32194879/aa15477f-9757-42c1-9bd7-f6f16a8b345f)
+
+```
+aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/x7p6e5r6
+
+docker build -t springbootwebapirepo .
+
+docker tag springbootwebapirepo:latest public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
+
+docker push public.ecr.aws/x7p6e5r6/springbootwebapirepo:latest
+```
 
 ## 3. Create a Docker image and push it to Docker Desktop
 
