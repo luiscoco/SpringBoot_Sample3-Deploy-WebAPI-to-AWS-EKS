@@ -91,6 +91,8 @@ ADD ${JAR_FILE} demoapi.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/demoapi.jar"]
 ```
 
+Build the Docker image and push it to AWS ECR with these commands:
+
 ```
 docker build -t springbootwebapirepo .
 
